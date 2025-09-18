@@ -35,7 +35,7 @@ Ruby. How cool is that!? We'll use this gem more in the lessons to come.
 To install the `sqlite3` gem, run:
 
 ```console
-$ bundle install
+bundle install
 ```
 
 Running `bundle install` is a good habit to get into when setting up new Ruby
@@ -43,7 +43,7 @@ applications with a `Gemfile`. As a reminder, the `Gemfile` is where we specify
 the dependencies for a Ruby application. Running `bundle install` will download
 the gems listed in this file to your system.
 
-In case you forget though, running `learn test` will **also** run
+In case you forget though, running `bin/rspec` will **also** run
 `bundle install` if you haven't already installed the necessary gems.
 
 ### A Note on Testing
